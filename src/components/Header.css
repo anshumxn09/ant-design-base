@@ -1,0 +1,14 @@
+.mobileIcons{
+    padding: 10px 0px 0px 10px;
+    display: none;
+}
+
+@media screen and (max-width : 450px) {
+    .mobileIcons{
+        display: block;
+    }
+
+    .webMenu{
+        display: none;
+    }
+}
